@@ -147,8 +147,8 @@ def Cal():
     sarkiList = []
     pygame.mixer.init()
     try:
-        direc = yer + "\music"
-        os.chdir(direc) ## Şarkılar kod dosyası ile aynı konumda olacaksa bu koda gerek yok.
+        #direc = yer + "\music"
+        #os.chdir(direc) ## Şarkıları music klasörünün içinde tutacaksan bunu ve bir satır üstteki kodu aktif et.
         for i in os.listdir():
             if i.endswith(".mp3"):
                 sarkiList.append(i)
