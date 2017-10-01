@@ -1,0 +1,5 @@
+speech_recognition >= 3.7.1
+requests >= 2.18.1
+urllib3 >= 1.21.1
+pygame >= 1.9.3
+copypaste >= 0.2
